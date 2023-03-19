@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "317378159056",
+    "project_id": "rncicd",
+    "storage_bucket": "rncicd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317378159056:android:5b616c1fa447021fee59d5",
+        "android_client_info": {
+          "package_name": "com.rn_ci_cd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317378159056-2m59rfkoukrdmt2v7fa50eptncgiahau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuhnlwQnqMG5BfcLy7hKxl2RrEoESZd9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "317378159056-2m59rfkoukrdmt2v7fa50eptncgiahau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
