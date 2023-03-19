@@ -5,6 +5,7 @@
   "scripts": {
     "android": "react-native run-android",
     "build:android:release": "cd android && chmod +x gradlew && ./gradlew assembleRelease",
+    "build:ios:release": "cd ios && xcodebuild -workspace MyProject.xcworkspace -scheme MyProject -configuration Release -archivePath MyProject.xcarchive archive && xcodebuild -exportArchive -archivePath MyProject.xcarchive -exportPath MyProject.ipa -exportOptionsPlist ExportOptions.plist",
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
