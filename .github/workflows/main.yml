@@ -25,9 +25,3 @@ jobs:
           name: release
           path: android/app/build/outputs/apk/release/app-release.apk
       
-      - name: Deploy to Firebase
-        uses: w9jds/firebase-action@master
-        with:
-          args: deploy --only hosting --project your-project-id
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
